@@ -7,7 +7,7 @@ const Users = () => {
   const [users, setUsers] = useState([]);
   const getUsers = async () => {
     const { data } = await axios(API);
-    setUsers(data);
+    setUsers(data.results);
   };
   useEffect(() => {
     getUsers();

@@ -7,7 +7,7 @@ import UserDetails from "./components/UserDetails";
 import Layout from "./components/Layout";
 
 //! устанавливаем библиотеку npm i react-router-dom
-// ! Обернуть App в BrowserRouter
+// ! Обернуть App в BrowserRouter index.js
 // ! Создаем файл MainRoutes в src (пока в src)
 // ! Настраиваем роуты
 // ! Navbar  потом

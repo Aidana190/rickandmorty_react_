@@ -17,8 +17,7 @@ const UserDetails = () => {
   return (
     <div>
       <h1>{user.name}</h1>
-      <h2>{user.username}</h2>
-      <h3>{user.phone}</h3>
+      <img src={user.image} alt="" />
     </div>
   );
 };

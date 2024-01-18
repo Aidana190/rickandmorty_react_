@@ -1,1 +1,1 @@
-export const API = "https://jsonplaceholder.typicode.com/users";
+export const API = "https://rickandmortyapi.com/api/character";
